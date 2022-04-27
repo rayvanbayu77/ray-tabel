@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RayDataModelStoreContainer" CdmEntityContainer="RayEntities">
+    <EntitySetMapping Name="Tabels">
+      <EntityTypeMapping TypeName="RayDataModel.Tabel">
+        <MappingFragment StoreEntitySet="Tabel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="TempatTanggalLahir" ColumnName="TempatTanggalLahir" />
+          <ScalarProperty Name="Alamat" ColumnName="Alamat" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
